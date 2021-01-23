@@ -28,6 +28,7 @@ for i in range(1, 12 + 1):
             for tr in trs:
                 tds = tr.find_elements_by_tag_name("td")
 
+                print('date: ' + date)
                 print('id: ' + str(k))
                 print('book: ' + tds[0].text)
                 print('verse :' + tds[1].text)
